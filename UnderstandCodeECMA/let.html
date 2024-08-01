@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecma Script Tutorial</title>
+</head>
+<body>
+    <h1>Keywords</h1>
+</body>
+<script>
+    // Code 1--------------------------------------------------------
+    // var a = 10;      // Works
+    // var a = 20;
+
+    // let a = 10;      // Not works
+    // let a = 20;
+
+    // let a = 20;      // Not works
+    // var a = 10;
+
+    // Code 2-------------------------------------------------------
+    // let a = 10;
+    // console.log(a);
+    // if(true)
+    // {
+    //     var a = 20;
+    //     console.log(a);
+    // }
+    // console.log(a);
+    // ERROR will occur - Beacuse global will take the entire global scope as its block.
+
+    // var a = 10;
+    // console.log(a);
+    // if(true)
+    // {
+    //     let a = 20;
+    //     console.log(a);
+    // }
+    // console.log(a);
+
+    // Code 5-----------------------------------------------------
+    // Hosting
+
+    // console.log(a);  // This dont, works  
+    // let a;
+    
+    // let a;
+    // console.log(a);
+    
+    // var a;
+    // console.log(a);
+
+    // console.log(a);
+    // var a;
+
+
+    // Code 6------------------------------------------------------------
+    // Looping 
+    // console.log("Simple var loop 1 to 10");
+    // for(var i = 1; i<=10; i++){
+    //     console.log(i);
+    // }
+    // //Print 1 to 10 simply 
+    
+    
+    // console.log("Simple let loop 1 to 10");
+    // for(let i = 1; i<=10; i++){
+    //     console.log(i);
+    // }
+    // Prints 1 to 10 simply
+    
+    // console.log("Timeout var loop 1 to 10");
+    // for(var i=0; i<10; i++){
+    //     setTimeout(()=>{
+    //         console.log(i)
+    //     }, 1000)
+    // }
+    // The code will give 10 directly
+
+    // console.log("Timeout let loop 1 to 10");
+    // for(let i=1; i<=10; i++){
+    //     setTimeout(()=>{
+    //         console.log(i)
+    //     }, 1000)
+    // }
+    // This code will generate all different values of the loop as demanded because in let the different i are being initialised when we go for printing of let i
+
+</script>
+</html>
