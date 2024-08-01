@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECMA Script : default Parameters for Functions.</title>
+</head>
+<body>
+    <h1>Default Parameters</h1>
+
+</body>
+<script>
+
+    // function add(){
+    //     return 10+20;
+    // }
+    // console.log(add());
+
+    // function add(a, b){
+    //     return a+b;
+    // }
+    // console.log(add(10, 20));
+
+
+    // function add(a, b=5){       // Assigning of default parameters 
+    //     return a+b;
+    // }
+    // console.log(add(10));
+
+    // function add(a=10, b=5){                 // Yes, we can assign default parameter for any number of variables 
+    //     return a+b;
+    // }
+    // console.log(add());
+
+    // function add(a, b=10, c=30){
+    //     return a+b+c;
+    // }
+    // console.log(add(10));
+    
+
+                        
+    // function someVal(){                         // FUNCTION to be passed as variable is below
+    //     return 100;
+    // }
+    
+    // function add(a, b=10, c=someVal()){        // Yes, we can also pass functions as the parameters to a function.
+    //     return a+b+c;
+    // }
+    // console.log(add(10));
+
+    // function someVal(){                        // Same done for Strings 
+    //     return "last";
+    // }
+
+    // function add(a, b="middle", c=someVal()){
+    //     return a+" "+b+" "+c;
+    // }
+    // console.log(add("first"));
+
+    // function main(a, b=main()){
+    //     return a+b;
+    // }
+    // console.log(main);
+    
+
+</script>
+</html>
