@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES6 - template Literals</title>
+</head>
+<body>
+    <h1>ES6 - Template Literals</h1>
+</body>
+<script>
+
+    //1. What is Templatre Literals?
+    //3. Use function and some operations with it.
+    
+
+    // Problem - The issue was to concatenate Variables with string issues were coming so to overcome same we did this.
+    // Also called as String Template Literals - 
+    
+    let quote="Either you run the code or code runs you.";
+    let by = "Navneet";
+    let user = "Peter";
+    let x = 10;
+    let y = 20;
+    function fullName() {
+        return "Navneet Kolhi"
+    }
+
+    // Old way
+    console.log("Either you run the code or code runs you." + " You " + by + user);
+
+    // Template literals - using BackTicks 
+    // console.log(`Either you run the code or code runs you
+    // Navneet`
+    // );
+    
+    // We can also make the value apear of any fi=unction in the String.
+    console.log(`Either you run the code or code runs you ${by} Hello ${fullName()} where ${x*y}`);
+
+
+</script>
+</html>
